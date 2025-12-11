@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae - Estudiante de Programación</title>
+    <meta name="description" content="Currículum Vitae profesional de estudiante de programación con habilidades en múltiples lenguajes y tecnologías.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <span class="nav__logo-text">Mi CV</span>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#perfil" class="nav__link active-link">Perfil</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#educacion" class="nav__link">Educación</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#habilidades" class="nav__link">Habilidades</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#experiencia" class="nav__link">Experiencia</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contacto" class="nav__link">Contacto</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero section" id="hero">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Estudiante de Programación</h1>
+                    <h2 class="hero__subtitle">Currículum Vitae & Portafolio Profesional</h2>
+                    <p class="hero__description">
+                        Página web desarrollada exclusivamente para la presentación de mi currículum vitae profesional. 
+                        Estudiante de primer semestre con gran pasión por la tecnología y las computadoras.
+                    </p>
+                    <div class="hero__buttons">
+                        <a href="#contacto" class="button button--primary">
+                            <i class="fas fa-envelope"></i>
+                            Contactar
+                        </a>
+                        <a href="#perfil" class="button button--outline">
+                            <i class="fas fa-user"></i>
+                            Conoce más
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Profile Section -->
+        <section class="profile section" id="perfil">
+            <div class="container">
+                <h2 class="section__title">Perfil Profesional</h2>
+                <div class="profile__content">
+                    <div class="profile__description">
+                        <p class="profile__text">
+                            Por el momento me dedico a ser estudiante de primer semestre aficionado a todo el mundo relacionado con computadoras. 
+                            A pesar de tener experiencia casi nula, me considero alguien capaz de aprender y adaptarme a diferentes situaciones.
+                        </p>
+                        <p class="profile__text">
+                            Mi rendimiento académico es excelente y no me considero alguien excepcional, pero sí alguien fiel a mis conocimientos. 
+                            Tengo una gran motivación por crecer profesionalmente en el área de la programación y desarrollo de software.
+                        </p>
+                    </div>
+                    
+                    <!-- Languages -->
+                    <div class="profile__languages">
+                        <h3 class="profile__subtitle">Idiomas</h3>
+                        <div class="languages__grid">
+                            <div class="language__item">
+                                <div class="language__header">
+                                    <span class="language__name">Español</span>
+                                    <span class="language__level">Nativo</span>
+                                </div>
+                                <div class="language__bar">
+                                    <div class="language__progress" data-level="100"></div>
+                                </div>
+                            </div>
+                            <div class="language__item">
+                                <div class="language__header">
+                                    <span class="language__name">Inglés</span>
+                                    <span class="language__level">B1</span>
+                                </div>
+                                <div class="language__bar">
+                                    <div class="language__progress" data-level="70"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education section" id="educacion">
+            <div class="container">
+                <h2 class="section__title">Educación</h2>
+                <div class="education__timeline">
+                    <!-- Current Education -->
+                    <div class="education__item">
+                        <div class="education__date">
+                            <span class="education__year">2025 - Actualidad</span>
+                        </div>
+                        <div class="education__content">
+                            <h3 class="education__title">Computación e Informática mención Programación</h3>
+                            <p class="education__institution">Ceduc UCN</p>
+                            <p class="education__level">Educación Superior</p>
+                            <div class="education__description">
+                                <p>Cursando actualmente el primer semestre de la carrera. Enfoque especializado en programación y desarrollo de software.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- High School -->
+                    <div class="education__item">
+                        <div class="education__date">
+                            <span class="education__year">Anterior</span>
+                        </div>
+                        <div class="education__content">
+                            <h3 class="education__title">Enseñanza Media</h3>
+                            <p class="education__institution">Liceo Homero Vigueras (F832), Cañete</p>
+                            <p class="education__level">Educación Secundaria</p>
+                        </div>
+                    </div>
+
+                    <!-- Elementary School -->
+                    <div class="education__item">
+                        <div class="education__date">
+                            <span class="education__year">Anterior</span>
+                        </div>
+                        <div class="education__content">
+                            <h3 class="education__title">Enseñanza Básica</h3>
+                            <p class="education__institution">Escuela Rubí Nelson Silva Salas (F822)</p>
+                            <p class="education__level">Educación Primaria</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="habilidades">
+            <div class="container">
+                <h2 class="section__title">Habilidades Técnicas</h2>
+                
+                <!-- Programming Skills -->
+                <div class="skills__category">
+                    <h3 class="skills__category-title">
+                        <i class="fas fa-code"></i>
+                        Programación y Desarrollo
+                    </h3>
+                    <div class="skills__grid">
+                        <div class="skill__item">
+                            <div class="skill__header">
+                                <span class="skill__name">Java (Programación Orientada a Objetos)</span>
+                                <span class="skill__level">Intermedio</span>
+                            </div>
+                            <p class="skill__description">
+                                Desarrollo de aplicaciones modulares y escalables aplicando principios de diseño y buenas prácticas.
+                            </p>
+                        </div>
+                        
+                        <div class="skill__item">
+                            <div class="skill__header">
+                                <span class="skill__name">Python</span>
+                                <span class="skill__level">En desarrollo</span>
+                            </div>
+                            <p class="skill__description">
+                                Conocimientos básicos en Python para desarrollo de scripts y aplicaciones.
+                            </p>
+                        </div>
+                        
+                        <div class="skill__item">
+                            <div class="skill__header">
+                                <span class="skill__name">HTML & CSS</span>
+                                <span class="skill__level">Intermedio</span>
+                            </div>
+                            <p class="skill__description">
+                                Creación de páginas web responsivas con HTML semántico y CSS moderno.
+                            </p>
+                        </div>
+                        
+                        <div class="skill__item">
+                            <div class="skill__header">
+                                <span class="skill__name">JavaScript</span>
+                                <span class="skill__level">En desarrollo</span>
+                            </div>
+                            <p class="skill__description">
+                                Desarrollo de interactividad en páginas web con JavaScript moderno.
+                            </p>
+                        </div>
+                        
+                        <div class="skill__item">
+                            <div class="skill__header">
+                                <span class="skill__name">MySQL</span>
+                                <span class="skill__level">Básico</span>
+                            </div>
+                            <p class="skill__description">
+                                Gestión y manipulación de bases de datos relacionales.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hardware Skills -->
+                <div class="skills__category">
+                    <h3 class="skills__category-title">
+                        <i class="fas fa-microchip"></i>
+                        Hardware y Arquitectura
+                    </h3>
+                    <div class="skills__grid">
+                        <div class="skill__item">
+                            <div class="skill__header">
+                                <span class="skill__name">Arquitectura de PC</span>
+                                <span class="skill__level">Intermedio</span>
+                            </div>
+                            <p class="skill__description">
+                                Dominio de los componentes internos de un computador y su organización funcional, 
+                                con capacidad para diagnóstico y optimización.
+                            </p>
+                        </div>
+                        
+                        <div class="skill__item">
+                            <div class="skill__header">
+                                <span class="skill__name">Diagnóstico y Reparación</span>
+                                <span class="skill__level">Intermedio</span>
+                            </div>
+                            <p class="skill__description">
+                                Experiencia práctica en desarme, reparación, diagnóstico y armado de PCs y notebooks 
+                                de diferentes marcas y modelos.
+                            </p>
+                        </div>
+                        
+                        <div class="skill__item">
+                            <div class="skill__header">
+                                <span class="skill__name">Mantenimiento de Dispositivos</span>
+                                <span class="skill__level">Intermedio</span>
+                            </div>
+                            <p class="skill__description">
+                                Configuración, actualización y mantención de dispositivos electrónicos variados.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience section" id="experiencia">
+            <div class="container">
+                <h2 class="section__title">Experiencia</h2>
+                
+                <div class="experience__content">
+                    <div class="experience__description">
+                        <p class="experience__text">
+                            Como mencioné anteriormente, mi experiencia es casi nula, pero mi rendimiento académico es excelente. 
+                            No me considero alguien excepcional, pero sí alguien fiel a mis conocimientos y con gran capacidad de aprendizaje.
+                        </p>
+                    </div>
+                    
+                    <div class="experience__items">
+                        <div class="experience__item">
+                            <div class="experience__header">
+                                <h3 class="experience__title">Estudiante</h3>
+                                <span class="experience__company">CFT Ceduc UCN</span>
+                                <span class="experience__date">2025 – Actualidad</span>
+                            </div>
+                            
+                            <div class="experience__details">
+                                <h4 class="experience__details-title">Trabajos Prácticos Realizados:</h4>
+                                <ul class="experience__list">
+                                    <li class="experience__list-item">
+                                        <i class="fas fa-check-circle"></i>
+                                        Desarme, arreglo, diagnóstico y armado de computadores PCs y Notebooks de diferentes marcas y modelos
+                                    </li>
+                                    <li class="experience__list-item">
+                                        <i class="fas fa-check-circle"></i>
+                                        Programación y modificación de códigos en diversos lenguajes de programación
+                                    </li>
+                                    <li class="experience__list-item">
+                                        <i class="fas fa-check-circle"></i>
+                                        Configuración, actualización y mantención de dispositivos electrónicos variados
+                                    </li>
+                                    <li class="experience__list-item">
+                                        <i class="fas fa-check-circle"></i>
+                                        Desarrollo de proyectos aplicando programación orientada a objetos en Java
+                                    </li>
+                                    <li class="experience__list-item">
+                                        <i class="fas fa-check-circle"></i>
+                                        Trabajo con bases de datos MySQL para gestión de información
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contacto">
+            <div class="container">
+                <h2 class="section__title">Contacto</h2>
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <p class="contact__description">
+                            Estoy disponible para oportunidades de aprendizaje, prácticas profesionales o cualquier consulta relacionada con mi perfil académico.
+                        </p>
+                        
+                        <div class="contact__items">
+                            <div class="contact__item">
+                                <i class="fas fa-graduation-cap contact__icon"></i>
+                                <div class="contact__data">
+                                    <span class="contact__label">Institución</span>
+                                    <span class="contact__value">CFT Ceduc UCN</span>
+                                </div>
+                            </div>
+                            
+                            <div class="contact__item">
+                                <i class="fas fa-map-marker-alt contact__icon"></i>
+                                <div class="contact__data">
+                                    <span class="contact__label">Ubicación</span>
+                                    <span class="contact__value">Cañete, Chile</span>
+                                </div>
+                            </div>
+                            
+                            <div class="contact__item">
+                                <i class="fas fa-calendar contact__icon"></i>
+                                <div class="contact__data">
+                                    <span class="contact__label">Disponibilidad</span>
+                                    <span class="contact__value">2025 - Actualidad</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact__cta">
+                        <div class="contact__message">
+                            <h3 class="contact__cta-title">¿Interesado en mi perfil?</h3>
+                            <p class="contact__cta-text">
+                                Esta página web fue desarrollada exclusivamente para la presentación de mi currículum vitae profesional. 
+                                Para más información o consultas, no dudes en contactarme.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <p class="footer__text">
+                        © 2025 Currículum Vitae - Desarrollado exclusivamente para presentación profesional
+                    </p>
+                </div>
+                <div class="footer__description">
+                    <p class="footer__subtitle">Página web de currículum vitae</p>
+                    <p class="footer__note">
+                        Diseño y desarrollo enfocado en la presentación clara y profesional del perfil académico y habilidades técnicas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <a href="#hero" class="scrollup" id="scroll-up">
+        <i class="fas fa-chevron-up scrollup__icon"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
